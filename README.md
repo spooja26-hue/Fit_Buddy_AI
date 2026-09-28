@@ -54,7 +54,7 @@ FitBuddy-AI/
 ├── .env.example
 ├── .gitignore
 ├── requirements.txt
-└── README.md
+└── README.md  '''text
 
 ##🚀 How to Run
 -1. Clone the repository
