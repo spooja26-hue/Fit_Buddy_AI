@@ -55,38 +55,38 @@ FitBuddy-AI/
 ├── .gitignore
 ├── requirements.txt
 └── README.md  
-'''
+```
 ## 🚀 How to Run
 1. Clone the repository
-'''bash
+```bash
 git clone https://github.com/YOUR-USERNAME/FitBuddy-AI.git
 cd FitBuddy-AI
-'''
-2. Create virtual environment
-'''bash
+```
+3. Create virtual environment
+```bash
 python -m venv venv
 venv\Scripts\activate
-'''
-3. Install dependencies
-'''bash
+```
+4. Install dependencies
+```bash
 python -m pip install -r requirements.txt
-'''
-4. Configure Gemini API
+```
+5. Configure Gemini API
 
 ## Create a .env file and add your Gemini API key:
-
+```env
 GEMINI_API_KEY=YOUR_GEMINI_API_KEY
 GEMINI_WORKOUT_MODEL=gemini-3.5-flash-lite
 GEMINI_NUTRITION_MODEL=gemini-3.5-flash-lite
 DATABASE_URL=sqlite:///./fitbuddy.db
 ALLOW_DEMO_FALLBACK=true
-
+```
 -Do not upload your .env file or API key to GitHub.
 
 ## 5. Run the application
-'''bash
+```bash
 python -m uvicorn app.main:app --reload
-'''
+````
 
 Open:
 
