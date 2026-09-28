@@ -54,20 +54,26 @@ FitBuddy-AI/
 ├── .env.example
 ├── .gitignore
 ├── requirements.txt
-└── README.md  '''text
-
-##🚀 How to Run
--1. Clone the repository
+└── README.md  
+'''
+## 🚀 How to Run
+1. Clone the repository
+'''bash
 git clone https://github.com/YOUR-USERNAME/FitBuddy-AI.git
 cd FitBuddy-AI
--2. Create virtual environment
+'''
+2. Create virtual environment
+'''bash
 python -m venv venv
 venv\Scripts\activate
--3. Install dependencies
+'''
+3. Install dependencies
+'''bash
 python -m pip install -r requirements.txt
--4. Configure Gemini API
+'''
+4. Configure Gemini API
 
-##Create a .env file and add your Gemini API key:
+## Create a .env file and add your Gemini API key:
 
 GEMINI_API_KEY=YOUR_GEMINI_API_KEY
 GEMINI_WORKOUT_MODEL=gemini-3.5-flash-lite
@@ -77,13 +83,15 @@ ALLOW_DEMO_FALLBACK=true
 
 -Do not upload your .env file or API key to GitHub.
 
-##5. Run the application
+## 5. Run the application
+'''bash
 python -m uvicorn app.main:app --reload
+'''
 
--Open:
+Open:
 
 http://127.0.0.1:8000
-##🤖 AI Workflow
+## 🤖 AI Workflow
 -User Details
      ↓
 -FastAPI Backend
@@ -100,11 +108,11 @@ http://127.0.0.1:8000
 
 -Users can also submit feedback to generate an updated workout plan.
 
-##🎯 Project Objective
+## 🎯 Project Objective
 
 -The main objective of FitBuddy is to demonstrate how Generative AI, Python, FastAPI, databases and web technologies can be combined to create a practical AI-powered fitness application.
 
-##🔮 Future Scope
+## 🔮 Future Scope
 -Secure user authentication
 -Cloud deployment
 -Fitness progress tracking
@@ -112,11 +120,11 @@ http://127.0.0.1:8000
 -Multilingual support
 -PDF export of fitness plans
 -Advanced workout history and analytics
-##👩‍💻 Project Type
+## 👩‍💻 Project Type
 
-_Generative AI Academic Project
+Generative AI Academic Project
 
--**Project**: FitBuddy – AI Fitness Plan Generator
--**AI**: Google Gemini
--**Backend**: FastAPI + Python
--**Database**: SQLite
+Project: FitBuddy – AI Fitness Plan Generator
+AI Google Gemini
+Backend: FastAPI + Python
+Database: SQLite
